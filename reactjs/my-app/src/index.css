@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-left: 450px;
+}
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:30px; /*Добавляем отступ у пунктов меню*/
+}
+
+img {
+  width: 200px;
+  height: 130px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.car {
+  display:flex;
+  float:left;
+  width: 800px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.car-info {
+  margin-left: 50px;
+  width: 200px;
+}
+
+.car-img {
+  margin-left: 50px;
+}
+
+.car-info-all {
+  display:flex;
+  float:left;
+}
+
+.prise-car h3 {
+  margin-left: 400px;
+}
+
+.delete-bt {
+  margin-left: 50px;
+}
+
+.update-bt {
+  margin-left: 20px;
+}
+
+#add {
+  margin-left: 250px;
+}
+
+.form-add {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+input {
+  margin-left: 30px;
+}
